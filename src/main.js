@@ -1,7 +1,7 @@
-import App from './App.svelte';
+import Hello from "./Hello.svelte";
 
-var app = new App({
-	target: document.body
+var hello = new Hello({
+  target: document.getElementById("here"),
 });
 
-export default app;
+export default hello;
