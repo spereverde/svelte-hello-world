@@ -7,4 +7,8 @@ var hello = new Hello({
   },
 });
 
+document.querySelector("#kim").addEventListener("click", function () {
+  hello.$set({ name: "Kim" });
+});
+
 export default hello;
